@@ -44,7 +44,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Git repo url](https://your-solution-url.com)
+- Solution URL: [Git repo url](https://github.com/Plut0r/todo-app)
 - Live Site URL: [Netlify live url](https://your-live-site-url.com)
 
 

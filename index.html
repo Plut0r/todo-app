@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./resources/css/main.css">
+
+  <title>Frontend Mentor | Todo app | Plut0r</title>
+</head>
+
+<body>
+  <header>
+    <div class="header-div">
+      <div class="header-grp-1">
+        <h1>TODO</h1>
+        <div class="theme-icon">
+          <img class="icon" id="icon-moon" src="./resources/images/icon-moon.svg" alt="icon-moon">
+          <img class="icon" id="icon-sun" src="./resources/images/icon-sun.svg" alt="icon-sun">
+        </div>
+      </div>
+      <div class="input-div">
+        <div class="container-div">
+          <div class="container"></div>
+        </div>
+        <div class="new-todo-input">
+            <input type="text" name="theme" id="todo" placeholder="Create a new todo...">
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="main-div">
+      <div class="todo-items-wrapper">
+        <ul class="task-box">
+          <li class="todo-items">
+            <label for="1">
+              <input type="checkbox" id="1">
+              <div class="todo-text">
+                <p>Rest lol</p>
+              </div>
+            </label>
+            <div class="settings">
+              <img class="icon-cross" src="./resources/images/icon-cross.svg" alt="icon-cross">
+            </div>
+          </li>
+          <li class="todo-items">
+            <label for="1">
+              <input type="checkbox" id="1">
+              <div class="todo-text">
+                <p>Rest lol</p>
+              </div>
+            </label>
+            <div class="settings">
+              <img class="icon-cross" src="./resources/images/icon-cross.svg" alt="icon-cross">
+            </div>
+          </li>
+          <li class="todo-items">
+            <label for="1">
+              <input type="checkbox" id="1">
+              <div class="todo-text">
+                <p>Rest lol</p>
+              </div>
+            </label>
+            <div class="settings">
+              <img class="icon-cross" src="./resources/images/icon-cross.svg" alt="icon-cross">
+            </div>
+          </li>
+          <li class="todo-items">
+            <label for="1">
+              <input type="checkbox" id="1">
+              <div class="todo-text">
+                <p>Rest lol</p>
+              </div>
+            </label>
+            <div class="settings">
+              <img class="icon-cross" src="./resources/images/icon-cross.svg" alt="icon-cross">
+            </div>
+          </li>
+        </ul>
+        <div class="todo-items-info">
+          <div class="items-statuses">
+            <span id="all" class="all">All</span>
+            <span id="active">Active</span>
+            <span id="completed">Completed</span>
+          </div>
+          <div class="items-clear">
+            <button class="clear-btn">Clear All</buttton>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
